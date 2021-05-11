@@ -1,0 +1,40 @@
+-- @path MM=/it.disim.univaq.demo.ocl/model/Library.ecore
+-- @path OUTMM=/it.disim.univaq.demo.model/model/model.ecore
+
+module Library2WebApplication;
+create OUT : OUTMM from IN : MM;
+
+
+helper context MM!Book def : getIDName(): String = self.name + 'ID';
+helper def : getIDName(name : String): String = name + 'ID';
+
+
+
+rule Application2Model {
+	from 
+		src : MM!Library
+	to trg : OUTMM!Application (
+		name <- src.name,
+		enitities <- src.books
+	) 
+}
+
+rule Book2Entity {
+	from
+		src : MM!Book
+	to
+		trg : OUTMM!Entity (
+			name <- src.name
+	)
+}
+
+lazy rule BookID {
+	from
+		src : MM!Book
+	to
+		trg : OUTMM!Property (
+			isPK <- true,
+			--name <- thisModule.getIDName(src.name)
+			name <- src.getIDName()
+		)
+}
