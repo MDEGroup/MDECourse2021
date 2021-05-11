@@ -23,7 +23,7 @@ Conversion notes:
 
 
 
-# Operative Environment \
+# Operative Environment 
 What to install to start working with EMF and Ecore.
 
 
