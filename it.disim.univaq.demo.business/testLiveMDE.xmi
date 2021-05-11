@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<webapplication:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:webapplication="http://it.disim.univaq.demo/model">
+  <enitities name="entity1">
+    <properties xsi:type="webapplication:Reference" ref="//@enitities.1"/>
+  </enitities>
+  <enitities name="entity2"/>
+</webapplication:Application>

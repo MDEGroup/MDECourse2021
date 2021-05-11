@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Business
+Bundle-SymbolicName: it.disim.univaq.demo.business
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: it.disim.univaq.demo.business.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ it.disim.univaq.demo.model;bundle-version="0.1.0",
+ org.eclipse.emf.ecore.xmi;bundle-version="2.16.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: it.disim.univaq.demo.business
+Bundle-ActivationPolicy: lazy
+Export-Package: it.disim.univaq.demo.business

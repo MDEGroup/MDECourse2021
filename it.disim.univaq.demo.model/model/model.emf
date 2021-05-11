@@ -1,0 +1,23 @@
+@namespace(uri="http://it.disim.univaq.demo/model", prefix="webapplication")
+package webapplication;
+
+class Application extends Named {
+	val Entity[*] enitities;
+}
+
+class Named {
+	attr String name;
+}
+
+class Entity extends Named {
+	val Property[*] properties;
+}
+
+class Property extends Named {
+	attr boolean isPK;
+}
+
+class Reference extends Property {
+	ref Entity ~ref;
+}
+

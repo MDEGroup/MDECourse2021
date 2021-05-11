@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapplication:Application
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:webapplication="http://it.disim.univaq.demo/model"
+    xsi:schemaLocation="http://it.disim.univaq.demo/model model.ecore"
+    name="Test">
+  <enitities
+      name="Group">
+    <properties
+        name="Name"
+        isPK="true"/>
+    <properties
+        name="priviledge"/>
+    <properties
+        xsi:type="webapplication:Reference"
+        name="user"
+        ref="//@enitities.1"/>
+  </enitities>
+  <enitities
+      name="User">
+    <properties
+        name="name"
+        isPK="true"/>
+    <properties
+        xsi:type="webapplication:Reference"
+        name="group"
+        ref="//@enitities.0"/>
+  </enitities>
+</webapplication:Application>

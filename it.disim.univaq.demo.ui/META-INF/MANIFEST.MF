@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: it.disim.univaq.demo.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: it.disim.univaq.demo.ui.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ it.disim.univaq.demo.business;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: it.disim.univaq.demo.ui
+Bundle-ActivationPolicy: lazy
