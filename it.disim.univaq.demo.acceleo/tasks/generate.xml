@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="generate" name="it.disim.univaq.demo.acceleo">
+    <property name="ECLIPSE_HOME" value="../../../../../eclipse/modeling-2021-03/Eclipse.app/Contents/Eclipse"/>
+    <property name="ECLIPSE_WORKSPACE" value="../.."/>
+
+    <!-- The classpath with only the dependencies used by the project -->
+    <path id="it.disim.univaq.demo.acceleo.libraryclasspath">
+        <pathelement location="${ECLIPSE_WORKSPACE}/it.disim.univaq.demo.acceleo/bin"/>
+    </path>
+
+    <path id="it.disim.univaq.demo.acceleo.classpath">
+        <path refid="it.disim.univaq.demo.acceleo.libraryclasspath"/>
+    </path>
+
+    <!-- The classpath with only the jars available in the plugin folder of Eclipse -->
+    <path id="it.disim.univaq.demo.acceleo.libraryclasspath.alljars">
+        <pathelement location="../it.disim.univaq.demo.acceleo/bin"/>
+        <fileset dir="${ECLIPSE_HOME}/plugins/" includes="*.jar"/>
+    </path>
+
+    <path id="it.disim.univaq.demo.acceleo.classpath.alljars">
+        <path refid="it.disim.univaq.demo.acceleo.libraryclasspath.alljars"/>
+    </path>
+
+    <!-- The default task with the jars used by this project -->
+    <target name="generate">
+        <java classname="it.disim.univaq.demo.acceleo.main.Generate" classpathref="it.disim.univaq.demo.acceleo.classpath">
+            <arg value="${model}"/>
+            <arg value="${target}"/>
+        </java>
+    </target>
+
+    <!--
+        In case of problem you can also try with all the jar available in your Eclipse
+        Keep in mind that having two versions of the same jar can create problems
+    -->
+    <target name="generate.alljars">
+        <java classname="it.disim.univaq.demo.acceleo.main.Generate" classpathref="it.disim.univaq.demo.acceleo.classpath">
+            <arg value="${model}"/>
+            <arg value="${target}"/>
+        </java>
+    </target>
+</project>

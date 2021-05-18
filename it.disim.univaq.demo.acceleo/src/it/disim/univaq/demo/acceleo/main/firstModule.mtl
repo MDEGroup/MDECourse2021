@@ -1,0 +1,18 @@
+[comment encoding = UTF-8 /]
+[module firstModule('http://it.disim.univaq.demo/model')]
+
+
+[template public generateTable(anEntity : Entity)]
+
+	CREATE TABLE [anEntity.name/] (
+	[for (it : Property | anEntity.properties)separator (',')][it.name/] varchar(2) [if (it.isPK = true)] NOT NULL[/if][/for]
+	[for (it: Property | anEntity.properties->select(e | e.isPK = true))]
+		PRIMARY KEY ([it.name/]) 
+	[/for]
+   
+);
+
+	
+
+
+[/template]

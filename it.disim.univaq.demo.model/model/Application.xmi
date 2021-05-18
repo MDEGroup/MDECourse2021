@@ -4,15 +4,16 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:webapplication="http://it.disim.univaq.demo/model"
-    xsi:schemaLocation="http://it.disim.univaq.demo/model model.ecore"
-    name="Test">
+    xsi:schemaLocation="http://it.disim.univaq.demo/model /it.disim.univaq.demo.model/model/model.ecore"
+    name="Andrea">
   <enitities
       name="Group">
     <properties
         name="Name"
         isPK="true"/>
     <properties
-        name="priviledge"/>
+        name="priviledge"
+        isPK="true"/>
     <properties
         xsi:type="webapplication:Reference"
         name="user"

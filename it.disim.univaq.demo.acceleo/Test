@@ -1,0 +1,46 @@
+	#DB APPLICATION  Test
+		
+			CREATE TABLE Group (
+				Name varchar(2)  NOT NULL
+		,		priviledge varchar(2) 
+		,		user varchar(2) 
+				PRIMARY KEY (Name) 
+		   
+		);
+		
+			
+		
+		
+		
+			CREATE TABLE User (
+				name varchar(2)  NOT NULL
+		,		group varchar(2) 
+				PRIMARY KEY (name) 
+		   
+		);
+		
+			
+		
+		
+
+	#DB APPLICATION  Test
+		
+			CREATE TABLE Group (
+			Name varchar(2)  NOT NULL,priviledge varchar(2) ,user varchar(2) 
+				PRIMARY KEY (Name) 
+		   
+		);
+		
+			
+		
+		
+		
+			CREATE TABLE User (
+			name varchar(2)  NOT NULL,group varchar(2) 
+				PRIMARY KEY (name) 
+		   
+		);
+		
+			
+		
+		

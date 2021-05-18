@@ -1,0 +1,38 @@
+[2021-04-08 09:09:16] Executing startup tasks
+[2021-04-08 09:09:16] Java(TM) SE Runtime Environment 1.8.0_202-b08
+[2021-04-08 09:09:16] Product self.product.version
+[2021-04-08 09:09:16] Workspace /Users/juri/development/workspaces/runtime-New_configuration
+[2021-04-08 09:09:16] Bundle org.eclipse.oomph.setup 1.17.0.v20200606-0914, build=4683, branch=11a8454bc4da69195dc3e9f065bbd8fe43f77e1e
+[2021-04-08 09:09:16] Bundle org.eclipse.oomph.setup.core 1.17.0.v20200531-1047, build=4683, branch=11a8454bc4da69195dc3e9f065bbd8fe43f77e1e
+[2021-04-08 09:09:16] Bundle org.eclipse.oomph.setup.p2 1.15.0.v20200531-1047, build=4683, branch=11a8454bc4da69195dc3e9f065bbd8fe43f77e1e
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.changedDebugElement
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.consoleBackground
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.errorColor
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.inColor
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.MemoryHistoryKnownColor
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.MemoryHistoryUnknownColor
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.outColor
+[2021-04-08 09:09:16] Performing Preference /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND
+[2021-04-08 09:09:16] 
+[2021-04-08 10:44:18] Executing startup tasks
+[2021-04-08 10:44:18] Java(TM) SE Runtime Environment 1.8.0_202-b08
+[2021-04-08 10:44:18] Product self.product.version
+[2021-04-08 10:44:18] Workspace /Users/juri/development/workspaces/runtime-EclipseApplication
+[2021-04-08 10:44:18] Bundle org.eclipse.oomph.setup 1.17.0.v20200606-0914, build=4683, branch=11a8454bc4da69195dc3e9f065bbd8fe43f77e1e
+[2021-04-08 10:44:18] Bundle org.eclipse.oomph.setup.core 1.17.0.v20200531-1047, build=4683, branch=11a8454bc4da69195dc3e9f065bbd8fe43f77e1e
+[2021-04-08 10:44:18] Bundle org.eclipse.oomph.setup.p2 1.15.0.v20200531-1047, build=4683, branch=11a8454bc4da69195dc3e9f065bbd8fe43f77e1e
+[2021-04-08 10:44:18] Performing Preference /instance/org.eclipse.jdt.ui/spelling_user_dictionary_encoding = 
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.default
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.externalized_string
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.header_assignment
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.header_attributes
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.header_key
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.header_osgi
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.header_value
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.instr
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.string
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.tag
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.pde.ui/editor.color.xml_comment
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.ui.editors/lineNumberRuler = true
+[2021-04-08 10:44:19] Performing Preference /instance/org.eclipse.ui.editors/spellingEnabled = false
+[2021-04-08 10:44:19] 

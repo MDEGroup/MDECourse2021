@@ -1,0 +1,13 @@
+[comment encoding = UTF-8 /]
+[module generate('http://it.disim.univaq.demo/model')]
+[import it::disim::univaq::demo::acceleo::main::firstModule /]
+
+[template public generateElement(anApplication : Application)]
+[comment @main/]
+[file (anApplication.name, false, 'UTF-8')]
+	#DB APPLICATION  [anApplication.name/]
+	[for (it : Entity | anApplication.enitities)]
+		[generateTable(it)/]
+	[/for]
+[/file]
+[/template]

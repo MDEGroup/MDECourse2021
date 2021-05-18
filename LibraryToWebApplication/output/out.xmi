@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<webapplication:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webapplication="http://it.disim.univaq.demo/model" name="Univaq">
+  <enitities name="Machine learning">
+    <properties name="Machine learningID" isPK="true"/>
+  </enitities>
+  <enitities name="Model driven engineering">
+    <properties name="Model driven engineeringID" isPK="true"/>
+  </enitities>
+  <enitities name="Algorithms">
+    <properties name="AlgorithmsID" isPK="true"/>
+  </enitities>
+</webapplication:Application>

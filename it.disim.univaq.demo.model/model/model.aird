@@ -6,7 +6,7 @@
     <semanticResources>model.ecore</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_EjD7sLIrEeu5Afz9GgMi8A">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_E4WPMLIrEeu5Afz9GgMi8A" name="webapplication class diagram" repPath="#_E348MLIrEeu5Afz9GgMi8A" changeId="41457a76-d1f9-4127-b116-d00a0958b710">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_E4WPMLIrEeu5Afz9GgMi8A" name="webapplication class diagram" repPath="#_E348MLIrEeu5Afz9GgMi8A" changeId="173b4a1c-a286-4190-ae3a-4474679fafde">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="model.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -22,7 +22,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FfUIkrIrEeu5Afz9GgMi8A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_FfSTYbIrEeu5Afz9GgMi8A" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfSTYrIrEeu5Afz9GgMi8A" x="472" y="512"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfSTYrIrEeu5Afz9GgMi8A" x="304" y="496"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_FfUIk7IrEeu5Afz9GgMi8A" type="2003" element="_Fd2wALIrEeu5Afz9GgMi8A">
           <children xmi:type="notation:Node" xmi:id="_FfUvoLIrEeu5Afz9GgMi8A" type="5007"/>
@@ -35,7 +35,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FfUvo7IrEeu5Afz9GgMi8A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_FfUIlLIrEeu5Afz9GgMi8A" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfUIlbIrEeu5Afz9GgMi8A" x="368" y="32"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfUIlbIrEeu5Afz9GgMi8A" x="200" y="16"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_FfUvpLIrEeu5Afz9GgMi8A" type="2003" element="_Fd3XEbIrEeu5Afz9GgMi8A">
           <children xmi:type="notation:Node" xmi:id="_FfUvp7IrEeu5Afz9GgMi8A" type="5007"/>
@@ -44,7 +44,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FfUvqrIrEeu5Afz9GgMi8A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_FfUvpbIrEeu5Afz9GgMi8A" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfUvprIrEeu5Afz9GgMi8A" x="392" y="364"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfUvprIrEeu5Afz9GgMi8A" x="224" y="348"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_FfUvq7IrEeu5Afz9GgMi8A" type="2003" element="_Fe9jQLIrEeu5Afz9GgMi8A">
           <children xmi:type="notation:Node" xmi:id="_FfVWsLIrEeu5Afz9GgMi8A" type="5007"/>
@@ -57,7 +57,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FfVWs7IrEeu5Afz9GgMi8A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_FfUvrLIrEeu5Afz9GgMi8A" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfUvrbIrEeu5Afz9GgMi8A" x="256" y="232"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfUvrbIrEeu5Afz9GgMi8A" x="88" y="216"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_FfVWtLIrEeu5Afz9GgMi8A" type="2003" element="_Fe-KUbIrEeu5Afz9GgMi8A">
           <children xmi:type="notation:Node" xmi:id="_FfVWt7IrEeu5Afz9GgMi8A" type="5007"/>
@@ -66,7 +66,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_FfVWurIrEeu5Afz9GgMi8A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_FfVWtbIrEeu5Afz9GgMi8A" fontName=".AppleSystemUIFont" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfVWtrIrEeu5Afz9GgMi8A" x="260" y="512"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FfVWtrIrEeu5Afz9GgMi8A" x="92" y="496"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_E4v30bIrEeu5Afz9GgMi8A"/>
         <edges xmi:type="notation:Edge" xmi:id="_FfZoILIrEeu5Afz9GgMi8A" type="4001" element="_FfJwgLIrEeu5Afz9GgMi8A" source="_FfSTYLIrEeu5Afz9GgMi8A" target="_FfUvpLIrEeu5Afz9GgMi8A">
