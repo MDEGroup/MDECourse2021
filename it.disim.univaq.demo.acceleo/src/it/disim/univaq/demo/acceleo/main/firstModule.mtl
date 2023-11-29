@@ -4,7 +4,7 @@
 
 [template public generateTable(anEntity : Entity)]
 
-	CREATE TABLE [anEntity.name/] (
+	CREATE TABLE [anEntity.entityNameToUpperCase()/] (
 	[for (it : Property | anEntity.properties)separator (',')][it.name/] varchar(2) [if (it.isPK = true)] NOT NULL[/if][/for]
 	[for (it: Property | anEntity.properties->select(e | e.isPK = true))]
 		PRIMARY KEY ([it.name/]) 
@@ -16,3 +16,6 @@
 
 
 [/template]
+
+[query public entityNameToUpperCase(ent : Entity) : String = self.name.toUpperCase() /]
+

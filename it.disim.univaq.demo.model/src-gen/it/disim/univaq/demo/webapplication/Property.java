@@ -26,7 +26,7 @@ public interface Property extends Named {
 	 * @return the value of the '<em>Is PK</em>' attribute.
 	 * @see #setIsPK(boolean)
 	 * @see it.disim.univaq.demo.webapplication.ModelPackage#getProperty_IsPK()
-	 * @model
+	 * @model required="true"
 	 * @generated
 	 */
 	boolean isIsPK();

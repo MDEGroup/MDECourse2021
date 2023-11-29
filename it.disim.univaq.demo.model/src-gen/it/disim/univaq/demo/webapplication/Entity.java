@@ -28,7 +28,7 @@ public interface Entity extends Named {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Properties</em>' containment reference list.
 	 * @see it.disim.univaq.demo.webapplication.ModelPackage#getEntity_Properties()
-	 * @model containment="true"
+	 * @model containment="true" required="true"
 	 * @generated
 	 */
 	EList<Property> getProperties();

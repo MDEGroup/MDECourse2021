@@ -4,7 +4,7 @@
 
 [template public generateElement(anApplication : Application)]
 [comment @main/]
-[file (anApplication.name, false, 'UTF-8')]
+[file (anApplication.name, true, 'UTF-8')]
 	#DB APPLICATION  [anApplication.name/]
 	[for (it : Entity | anApplication.enitities)]
 		[generateTable(it)/]

@@ -28,7 +28,7 @@ public interface Named extends EObject {
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
 	 * @see it.disim.univaq.demo.webapplication.ModelPackage#getNamed_Name()
-	 * @model
+	 * @model required="true"
 	 * @generated
 	 */
 	String getName();

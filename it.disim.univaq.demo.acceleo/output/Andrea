@@ -1,0 +1,22 @@
+	#DB APPLICATION  Andrea
+		
+			CREATE TABLE GROUP (
+			Name varchar(2)  NOT NULL,priviledge varchar(2)  NOT NULL,user varchar(2) 
+				PRIMARY KEY (Name) 
+				PRIMARY KEY (priviledge) 
+		   
+		);
+		
+			
+		
+		
+		
+			CREATE TABLE USER (
+			name varchar(2)  NOT NULL,group varchar(2) 
+				PRIMARY KEY (name) 
+		   
+		);
+		
+			
+		
+		
